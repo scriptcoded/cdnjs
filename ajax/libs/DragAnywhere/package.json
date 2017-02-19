@@ -1,0 +1,33 @@
+{
+  "name": "DragAnywhere",
+  "version": "0.1",
+  "filename": "draganywhere.min.js",
+  "description": "Create draggable items and dropzones for creating highly flexible web apps",
+  "license": "MIT",
+  "author": "Script_Coded",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scriptcoded/draganywhere.git"
+  },
+  "homepage": "https://github.com/scriptcoded/draganywhere",
+  "keywords": [
+    "draganywhere",
+    "drag",
+    "dragndrop",
+    "drag and drop",
+    "drag n drop",
+    "drag-n-drop"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/scriptcoded/draganywhere.git",
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "draganywhere*"
+        ]
+      }
+    ]
+  }
+}
